@@ -6,11 +6,15 @@ class Env {
   @IsNotEmpty()
   @NotEquals('unsecure_jwt_secret')
   jwtSecret: string;
+
+  @IsString()
+  @IsNotEmpty()
+  dbURL: string;
 }
 
 export const env: Env = plainToInstance(Env, {
   jwtSecret: process.env.JWT_SECRET,
-  dbURL: process.env.dbURL,
+  dbURL: process.env.DATABASE_URL,
 });
 
 const errors = validateSync(env);
