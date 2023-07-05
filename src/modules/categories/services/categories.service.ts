@@ -12,6 +12,7 @@ export class CategoriesService {
         id: true,
         name: true,
         icon: true,
+        type: true,
       },
     });
   }
