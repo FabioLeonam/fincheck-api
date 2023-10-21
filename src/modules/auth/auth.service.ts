@@ -58,18 +58,18 @@ export class AuthService {
           createMany: {
             data: [
               //Income
-              { name: 'Salary', icon: 'salary', type: 'INCOME' },
+              { name: 'Salário', icon: 'salary', type: 'INCOME' },
               { name: 'Freelance', icon: 'freelance', type: 'INCOME' },
-              { name: 'Other', icon: 'other', type: 'INCOME' },
+              { name: 'Outro', icon: 'other', type: 'INCOME' },
               //Expense
-              { name: 'Home', icon: 'home', type: 'EXPENSE' },
-              { name: 'Food', icon: 'food', type: 'EXPENSE' },
-              { name: 'Education', icon: 'education', type: 'EXPENSE' },
-              { name: 'Leisure', icon: 'fun', type: 'EXPENSE' },
-              { name: 'Grocery', icon: 'grocery', type: 'EXPENSE' },
-              { name: 'Clothes', icon: 'clothes', type: 'EXPENSE' },
-              { name: 'Transport', icon: 'transport', type: 'EXPENSE' },
-              { name: 'Trips', icon: 'travel', type: 'EXPENSE' },
+              { name: 'Casa', icon: 'home', type: 'EXPENSE' },
+              { name: 'Comida', icon: 'food', type: 'EXPENSE' },
+              { name: 'Educação', icon: 'education', type: 'EXPENSE' },
+              { name: 'Lazer', icon: 'fun', type: 'EXPENSE' },
+              { name: 'Mercado', icon: 'grocery', type: 'EXPENSE' },
+              { name: 'Roupas', icon: 'clothes', type: 'EXPENSE' },
+              { name: 'Transporte', icon: 'transport', type: 'EXPENSE' },
+              { name: 'Viagens', icon: 'travel', type: 'EXPENSE' },
               { name: 'Outro', icon: 'other', type: 'EXPENSE' },
             ],
           },
